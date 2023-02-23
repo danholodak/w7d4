@@ -1,18 +1,32 @@
 @use '../variables' as *;
 
+
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid 1px lightgray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
 
 .left-nav {
 
   > ul {
     > li {
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 10px;
+      margin: 2px 15px;
+      
       
     }
   }
@@ -25,10 +39,11 @@
 .right-nav  {
   > ul {
     > li {
-      
+      margin: 2px;
     }
 
     > li:last-of-type {
+      padding: 10px;
       
     }
   }
@@ -40,7 +55,9 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  background-color: $lightest-gray;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
     

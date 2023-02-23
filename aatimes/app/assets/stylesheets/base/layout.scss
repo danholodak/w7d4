@@ -10,26 +10,30 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	font-family: $serif;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: rgb(74, 89, 161);
+	border-color: rgb(63, 76, 139);
+	color: white;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 5px;
+	transition: .5s;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+.fa-sharp {
+	font-size: 20px;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: rgb(47, 77, 130);
+	border-color: rgb(29, 58, 104)
 }
 
 /*
