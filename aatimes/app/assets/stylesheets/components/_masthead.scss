@@ -28,6 +28,18 @@
 
 	ul {
 		display: flex;
+
+		// li {
+		// 	margin: 0 3px;
+		// }
+
+		li:hover {
+			text-decoration: underline;
+		}
+
+		li:first-child {
+			font-weight: bold;
+		}
 	}
 }
 
@@ -44,8 +56,16 @@
 	margin-bottom: 10px;
 
 	li {
-		margin-left: 10px;
+		padding: 0 10px;
 		border-right: 1px solid $light-gray;
+	}
+
+	li a:hover {
+		text-decoration: underline;
+	}
+
+	li:last-child {
+		border: none;
 	}
 
 	button {
